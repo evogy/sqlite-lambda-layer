@@ -8,4 +8,5 @@ CONTAINER=$(docker run -d py36-sqlite-builder false)
 docker cp \
     $CONTAINER:/var/task/python/lib/python3.6/lib-dynload/_sqlite3.cpython-36m-x86_64-linux-gnu.so \
     layer/python/.
+docker stop $CONTAINER
 docker rm $CONTAINER
