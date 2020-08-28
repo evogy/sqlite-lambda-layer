@@ -7,7 +7,7 @@ a [Lambda Layer](https://docs.aws.amazon.com/lambda/latest/dg/configuration-laye
 ## How to use
 First you must clone the repo, build the file, and publish it to AWS:
 ```shell
-git clone git@github.com:dschep/sqlite-lambda-layer
+git clone git@github.com:evogy/sqlite-lambda-layer.git
 cd sqlite-lambda-layer
 ./build
 sls deploy
